@@ -1,7 +1,7 @@
 /*  /index.html  200
 
-# *** Warning! Your custom domain is not using HTTPS yet ***
-# These rules will change if you change your site’s custom domains or HTTPS settings
+# *** Atenção! Seu domínio personalizado ainda não está usando HTTPS ***
+# Essas regras serão alteradas se você alterar os domínios personalizados do site ou as configurações de HTTPS
 
-# Redirect default Netlify subdomain to primary domain
-http://italo-dev-radar.netlify.com/* http://www.italocedro.com.br/*
+# Redirecione o subdomínio Netlify padrão para o domínio principal
+http://italo-dev-radar.netlify.com/* http://italocedro.com.br/:splat 301!
