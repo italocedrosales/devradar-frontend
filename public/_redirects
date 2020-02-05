@@ -10,4 +10,4 @@ https://italo-dev-radar.netlify.com/* https://italocedro.com.br/:splat 301!
   conditions = {Role = ["admin", "cms"]}
   [redirects.headers]
     X-From = "Netlify"
-    X-Api-Key = "italocedro.com.br/devs"
+    X-Api-Key = "https://italocedro.com.br/devs"
